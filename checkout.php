@@ -61,7 +61,7 @@ $invoice_data = json_decode($result, true);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/checkout.css"/>
+    <link rel="stylesheet" href="CSS/checkout.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -165,17 +165,17 @@ $invoice_data = json_decode($result, true);
                             <p style="text-transform: uppercase;">Metode Pembayaran</p>
                             <hr>
                             <input type="radio" name="metode" value="1" id="bca" onclick="enable()">
-                            <label for="bca"><img src="../Image/bca.png" width="40" height="auto"> Bank Central Asia</label>
+                            <label for="bca"><img src="Image/bca.png" width="40" height="auto"> Bank Central Asia</label>
                             <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>
                             <label style="color: grey;">*Wajib beri keterangan transfer atas nama pembeli sesuai username account</label>
                             <br>
                             <input type="radio" name="metode" value="1" id="ovo" onclick="enable()">
-                            <label for="ovo"><img src="../Image/ovo.png" width="20" height="auto"> OVO</label>
+                            <label for="ovo"><img src="Image/ovo.png" width="20" height="auto"> OVO</label>
                             <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>
                             <label style="color: grey;">*Wajib beri keterangan transfer atas nama pembeli sesuai username account</label>
                             <br>
                             <input type="radio" name="metode" value="1" id="gopay" onclick="enable()">
-                            <label for="gopay"><img src="../Image/gopay.png" width="40" height="auto"> GOPAY</label>
+                            <label for="gopay"><img src="Image/gopay.png" width="40" height="auto"> GOPAY</label>
                             <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>
                             <label style="color: grey;">*Wajib beri keterangan transfer atas nama pembeli sesuai username account</label>
                         </div>

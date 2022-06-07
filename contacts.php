@@ -1,6 +1,4 @@
-<?php
-session_start(); ?>
-
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +6,7 @@ session_start(); ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -22,77 +20,30 @@ session_start(); ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <title>Permata Gordyn | Home Page</title>
+    <title>Permata Gordyn | Visit Us</title>
 </head>
 
 <body>
     <!--Header-->
     <?php include 'header.php'; ?>
-    <!-- landing page -->
-    <div class="konten1 mt-0" style="background-image: url(../Image/background.jpg);">
-        <div class="container fill_hight">
-            <div class="row align-items-center fill_hight">
-                <div class="col">
-                    <div class="konten1_konten">
-                        <h2>Permata Gordyn</h2>
-                        <h5>Selamat datang di website kami, kami menyediakan bermacam -
-                            </br>macam jenis gordyn atau tirai penutup jendela
-                        </h5>
-                        <button type="button" class="btn btn-secondary">selengkapnya</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- sejarah Permata gordyn -->
-    <div class="konten2" style="background-color: black;">
-        <div class="container">
-            <div class="row mx-auto">
-                <div class="col" >
-                    <div class="row" style="color: white;"><p>picture1</p></div>
-                    <div class="row" style="color: white;"><p>picture2</p></div>
-                </div>
-                <div class="col" >
-                    <div class="row" style="color: white;"><p>picture3</p></div>
-                    <div class="row" style="color: white;"><p>picture4</p></div>
-                </div>
-                <div class="col" style="color: white;">
-                    <p>picture1</p>
-                </div>
-                <div class="col" style="color: white;"><p>picture1</p></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Our Products -->
-    <div class="banner">
-        <div class="container">
-            <p>OUR PRODUCTS</p>
+    <!-- Landing Page Product -->
+    <div class="container-sm">
+        <div class="box contactbx" style="background-color: white;">
             <div class="row">
-                <div class="col-md-4 p-0">
-                    <div class="banner_item align-item-center mb-2" style="background-image: url(../Image/Logo.png);">
-                        <div class="banner_category">
-                            <p class="mb-auto">Gordyn</p>
-                            <a class="text-decoration-none" href="#">see details</a>
-                        </div>
-                    </div>
+                <div class="col-md-3 contact-us">
+                    <h2>Contact Us</h2>
+                    <p><img src="../Image/iphone.png" width="30px">No HP</p>
+                    <p><img src="../Image/email.png" width="30px">Email@gmail.com</p>
+                    <p><img src="../Image/instagram.png" width="30px">@instagram</p>
+                    <p><img src="../Image/facebook.png" width="30px">Facebook</p>
                 </div>
-                <div class="col-md-4 p-0">
-                    <div class="banner_item align-item-center" style="background-image: url(../Image/Logo.png);">
-                        <div class="banner_category">
-                            <p class="mb-auto">Vitrage</p>
-                            <a href="#">see details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-0">
-                    <div class="banner_item align-item-center" style="background-image: url(../Image/Logo.png);">
-                        <div class="banner_category">
-                            <p class="mb-auto">rel</p>
-                            <a href="#">see details</a>
-                        </div>
-                    </div>
+                <div class="col maps-view">
+                    <p><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.24595017998!2d107.51892671535671!3d-6.861099569034997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e48ee9df4d0b%3A0x4990f1514711debd!2sPermata%20Gordyn!5e0!3m2!1sen!2sid!4v1651817855501!5m2!1sen!2sid"
+                            width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
                 </div>
             </div>
         </div>

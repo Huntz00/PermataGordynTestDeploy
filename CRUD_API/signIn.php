@@ -143,7 +143,7 @@
                     data: JSON.stringify(data),
                     // cache: false,
                     success: function(){
-                        location.href = "../CRUD_API/home.php";
+                        location.href = "../index.php";
                         document.getElementById('loginfrm').reset();
                     },
                     error: function(dataResult){

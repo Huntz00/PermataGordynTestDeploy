@@ -61,7 +61,7 @@ $invoice_data = json_decode($result, true);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/bayar.css">
+    <link rel="stylesheet" href="CSS/bayar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -127,7 +127,7 @@ $invoice_data = json_decode($result, true);
                         <div class="row align-content-center justify-content-center">
                             <?php if ($row['metode_pembayaran'] == "BCA"){ ?>
                                 <div class="col-sm-2 text-center">
-                                    <img src="../Image/bca.png" width="100px" height="auto">
+                                    <img src="Image/bca.png" width="100px" height="auto">
                                 </div>
                                 <div class="col-lg-8">
                                     <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>
@@ -136,7 +136,7 @@ $invoice_data = json_decode($result, true);
                             <?php } ?>
                             <?php if ($row['metode_pembayaran'] == "OVO"){ ?>
                                 <div class="col-sm-2 text-center">
-                                    <img src="../Image/ovo.png" width="100px" height="auto">
+                                    <img src="Image/ovo.png" width="100px" height="auto">
                                 </div>
                                 <div class="col-lg-8">
                                     <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>
@@ -145,7 +145,7 @@ $invoice_data = json_decode($result, true);
                             <?php } ?>
                             <?php if ($row['metode_pembayaran'] == "GOPAY"){ ?>
                                 <div class="col-sm-2 text-center">
-                                    <img src="../Image/gopay.png" width="100px" height="auto">
+                                    <img src="Image/gopay.png" width="100px" height="auto">
                                 </div>
                                 <div class="col-lg-8">
                                     <p>No. Rekening : 1238180457 </br> Nama Rekening : Permata Gordyn </p>

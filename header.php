@@ -6,7 +6,7 @@
 <!--Header-->
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-        <a><img src="../Image/Logo.png" class="px-3" width="90px" height="auto"></a>
+        <a><img src="Image/Logo.png" class="px-3" width="90px" height="auto"></a>
         <a class="navbar-brand" href="#">Permata Gordyn</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul id="nav" class="navbar-nav ml-auto">
                 <li class="nav-item home">
-                    <a class="nav-link <?php if ($page == "home.php") {echo "active";} ?>" href="home.php">Home</a>
+                    <a class="nav-link <?php if ($page == "index.php") {echo "active";} ?>" href="index.php">Home</a>
                 </li>
                 <li class="nav-item products">
                     <a class="nav-link <?php if ($page == "products.php") {echo "active";} ?>" href="products.php">Products</a>
