@@ -1,0 +1,358 @@
+.fill_hight{
+    height: 100%;
+}
+
+*{
+    font-family: monospace;
+}
+
+
+/* header */
+.header{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background-color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar-nav button{
+    margin: 10px;
+    transition: 0.3s;
+}
+.navbar-nav button a{
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-nav button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link i:hover{
+    color: rgb(182, 182, 182);
+}
+
+/* body */
+/* landing page */
+.konten1{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.konten1_konten{
+    width: 60%;
+}
+
+.konten1_konten h2{
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+
+.konten1_konten button{
+    margin-top: 29px;
+    transition: 0.3s;
+}
+
+/* sejarah permata gordyn */
+.konten2{
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.konten2 p{
+    text-align: center;
+}
+
+.konten2 .sejarah{
+    padding-top: 80px;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.banner p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+.banner_item{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner_category{
+    margin-top: 80%;
+}
+
+.banner_category p{
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+
+.banner_category a{
+    display: block;
+    margin-top: -20%;
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.banner_category a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* footer */
+.footer{
+    background-color: black;
+    margin-top: 2%;
+    padding-top: 5%;
+}
+
+.footer .info{
+    margin-bottom: 5%;
+}
+.footer_nav_container{
+    color: white;
+    height: 55px;
+    margin-top: 0;
+    padding: 1em;
+}
+
+.footer_nav_container li{
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.footer_nav_container li a{
+    color: white;
+    transition: 0.3s;
+}
+
+.footer_nav_container li a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.cr{
+    text-align: center;
+}
+
+.cr a{
+    color: white;
+    transition: 0.3s;
+}
+
+.cr a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+
+/* PRODUCTS */
+/* LANDING PAGE */
+.lproduct{
+    /* width: 100%; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.lproduct_konten{
+    text-align: center;
+}
+
+.lproduct_konten h5{
+    margin-top: 29px;
+}
+
+.lproduct_konten button{
+    margin-top: 29px;
+}
+
+
+/* Slider Product */
+.sliderbx{
+    margin: 40px 70px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+}
+
+.sliderbx p{
+    padding: 40px 0;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blindtype{
+    margin: 20px 70px;
+}
+
+.carousel-item{
+    margin: 40px 200px;
+}
+
+.carousel-item .card{
+    margin: 0 25px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+}
+
+.carousel-item .card a{
+    color: black;
+}
+
+.carousel-item .card a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.card-header button{
+    color: black;
+}
+
+.card-header button:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* Visit Us */
+/* Landing Page */
+.contactbx{
+    margin: 40px 80px;
+    box-shadow: 0 0 20px 0 grey;
+    border-radius: 10px;
+}
+
+.row .contact-us{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.row .contact-us h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.row .contact-us p img{
+    margin: 20px 20px;
+}
+
+.row .maps-view{
+    margin: 40px 40px;
+    text-align: center;
+}
+
+
+/* Detail Product */
+.detailproductbx{
+    margin: 40px 80px;
+    box-shadow: 0 0 20px 0 grey;
+    border-radius: 10px;
+}
+
+.descriconten{
+    margin: 20% 35%;
+}
+
+.descriconten .harga{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.descriconten button{
+    background-color: black;
+    border: none;
+}
+
+.descriconten button:hover{
+    background-color: black;
+    box-shadow: none;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+    width:100px;
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+/* Pop Up Detail product */
+.modal-body .x{
+    margin-top: 45px;
+}
+
+.modal-body .pricegrd{
+    margin-top: 45px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.details{
+    background-color: black;
+}
+
+/* cart */
+
+
